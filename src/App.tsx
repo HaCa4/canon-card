@@ -8,7 +8,6 @@ const App: React.FC = () => {
   const [postList, setPostList] = useState<Post[]>();
   useEffect(() => {
     fetchCardContent(setPostList);
-    console.log(postList);
   }, []);
 
   if (postList?.length === 0) {
