@@ -1,0 +1,36 @@
+@import "vanilla-framework";
+@include vanilla;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+.u-vertically-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+}
+.p-heading--4 {
+  color: $color-information;
+  height: 5rem;
+  font-weight: bolder;
+}
+.p-heading--5 {
+  font-weight: 500;
+}
+.p-card {
+  width: 380px;
+  border-radius: 0.28rem;
+  border-top: 3px solid rgb(120, 0, 128, 0.5);
+  box-shadow: 0px 0px 5px #cacaca;
+}
+.p-loading-card {
+  height: 200px;
+}
